@@ -11,9 +11,9 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIAL_ID = 'dockerhub-id'
-        REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'docker_username'
-        GITHUB_ACCOUNT = 'kubesphere'
+        REGISTRY = 'hub.docker.com'
+        DOCKERHUB_NAMESPACE = 'wlx503190755'
+        GITHUB_ACCOUNT = 'wlx503190755'
         APP_NAME = 'devops-java-sample'
     }
 
